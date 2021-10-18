@@ -1,7 +1,7 @@
 
 import Layout from "../../components/Layout";
 import { client } from "../../libs/client";
-import Card from '../../components/card'
+import Card from '../../components/Card'
 export default function newsPage({news}) {
   return (
       <Layout>
