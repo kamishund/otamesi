@@ -1,0 +1,55 @@
+.card{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+    &:hover{
+        cursor: pointer;
+    }
+    border-bottom: rgb(163, 163, 163) solid 1px;
+}
+
+.day{
+    flex: 0 0 auto;
+    width: 135px;
+    font-size: 14px;
+    color: rgb(89, 89, 89);
+}
+
+.cat{
+    flex: 0 0 auto;
+    margin: 0 50px 0 0;
+    font-size: 11px;
+    background-color: #195ba9 ;
+    color: #fff;
+    padding: 1em;
+    
+}
+
+.title{
+    flex: 1 1 auto;
+    font-size: 18px;
+    color: rgb(89, 89, 89);
+}
+
+
+
+
+@media only screen and (max-width:900px) {
+    .cat{
+     margin-top: 10px;
+    }
+
+    .title{
+        margin-top: 10px;
+    }
+    .day{
+        margin-top: 10px;
+    }
+
+    .card{
+        padding: 20px;
+    }
+
+  }
