@@ -1,4 +1,4 @@
-import Link from 'next/Link';
+import Link from 'next/link';
 import React from 'react'
 import style from "./Card.module.scss"
 import dayjs from 'dayjs';
