@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
-import Link from 'next/Link'
+import Link from 'next/link'
 import { client } from "../libs/client";
 import Card from '../components/Card'
 export default function Home({ news }) {

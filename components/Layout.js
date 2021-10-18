@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Head from 'next/head'
-import Link from 'next/Link'
+import Link from 'next/link'
 import styles from './Layout.module.scss'
 export default function Layout({children,title="default"}) {
     
